@@ -1,0 +1,10 @@
+// Overall page structure
+
+.row {
+  @include outer-container();
+}
+
+.site-header {
+  border-bottom: 1px solid palette(gray);
+  margin-bottom: 2em;
+}

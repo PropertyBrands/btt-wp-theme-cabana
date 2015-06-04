@@ -1,0 +1,37 @@
+.content-area {
+  @include span-columns(8);
+
+  @include respond-to(medium) {
+    @include span-columns(12)
+  }
+}
+
+// Default Wordpress content classes
+.sticky {
+  display: block;
+}
+
+.hentry {
+  margin-bottom: 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+  display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+  display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin-bottom: 1.5em;
+}
+
+.page-links {
+  clear: both;
+  margin-bottom: 1.5em;
+}
