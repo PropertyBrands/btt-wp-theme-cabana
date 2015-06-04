@@ -121,6 +121,7 @@ function cabana_scripts() {
     wp_enqueue_script('jquery');
   }
 
+  wp_enqueue_script( 'cabana-modernizr', get_template_directory_uri() . '/js/vendor/modernizr.custom.js',array(), '2.7.2', false);
   wp_enqueue_script( 'cabana-classie', get_template_directory_uri() . '/js/vendor/classie.js', array(), '1.0.1', true );
 	wp_enqueue_script( 'cabana-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '0.0.1', true );
   wp_enqueue_script( 'cabana-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
