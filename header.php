@@ -35,7 +35,7 @@
       </header><!-- #masthead -->
 
       <nav id="site-navigation" class="main-navigation" role="navigation">
-        <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'ecstatic' ); ?></a>
+        <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'cabana' ); ?></a>
         <button class="nav-btn" id="nav-close"><span class="icon-cross3"></span> Close</button>
         <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'menu', ) ); ?>
       </nav><!-- #site-navigation -->
