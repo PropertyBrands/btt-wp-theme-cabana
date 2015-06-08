@@ -6,18 +6,6 @@ A WordPress base theme for Bluetent, based on Underscores. Uses Gulp for compili
 Getting Started
 ---------------
 
-This theme uses a Yeoman generator to customize this theme for the particular project. Grab that and it will download this theme automatically for you
+Use the [Yeoman Generator](https://github.com/bluetent/generator-wp-cabana) (recommended) to intall this theme into your WordPress project.
 
-1. Install Yeoman
-
-``` npm install -g yo ```
-
-2. Download the generator
-
-``` npm install -g generator-wp-cabana ```
-
-3. Run the generator to install the theme, download dependencies and rename everything to match your project.
-
-``` yo wp-cabana ```
-
-4. Profit.
+You could also clone this repo and go from there, but thats a lot of work.
